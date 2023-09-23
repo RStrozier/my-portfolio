@@ -4,9 +4,9 @@ import Projects from './Projects';
 
 const Welcome = () => {
     return (
-      <div className='container-fluid'>
-        <div className='Entire-Welcome-App container-fluid'>
-        <div className="App container-lg-bg">
+      <div className=''>
+        <div className='Entire-Welcome-App '>
+        <div className="App container-fluid">
           <div className="Message container container-lg p-2 m-1 rounded-2">
           <i class="fa-regular fa-hand"></i>
           <p className="Text-Full">
@@ -18,7 +18,7 @@ const Welcome = () => {
             -Rashida S.
             </p>
           </p>
-          <div className="coding-icons container container-md">
+          <div className="coding-icons container-md">
           <i class="fa-brands fa-react"></i>
           <i class="fa-brands fa-css3-alt"></i>
           <i class="fa-brands fa-html5"></i>
@@ -26,7 +26,7 @@ const Welcome = () => {
           <i class="fa-brands fa-node"></i>
           </div>
           </div>
-          <div className="Projects container-fluid-bg">
+          <div className="Projects container-md">
            <Projects />
       </div>
         </div>
