@@ -72,7 +72,7 @@
 
 @media (max-width: 767px) {
   .Text-Full {
-    font-size: 1.65rem; /* Decrease the font size for text */
+    font-size: 1.4rem; /* Decrease the font size for text */
   }
 
   .fa-brands {
