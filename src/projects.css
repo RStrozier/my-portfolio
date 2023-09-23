@@ -1,7 +1,7 @@
 .image-size {
     width: 13.5rem;
     height: 13.5rem;
-    border: .25rem inset rgba(0, 0, 0, 0.377);
+    border: .25rem inset rgba(0, 0, 255, 0.63);
     border-radius: 50%;
     background-position: center;
     background-size: contain;
@@ -32,7 +32,7 @@
     bottom: 0;
     width: 80%;
     text-align: center;
-    border: .12rem solid rgba(128, 128, 128, 0.87);
+    border: .12rem solid rgba(197, 12, 12, 0.7);
     background-color: rgba(197, 12, 12, 0.7);
     padding: 1rem;
     color: white;
@@ -40,19 +40,19 @@
   
   .caption h2 {
     margin: 0;
-    font-size: 1rem;
+    font-size: .9rem;
     font-family: 'Grandstander', cursive;
   }
   
   .caption p {
     margin: 0;
-    font-size: .75rem;
+    font-size: .70rem;
     font-family: 'Grandstander', cursive;
   }
   
  .project-text {
-    padding: .3rem;
-    font-size: 2rem;
+    padding: .2rem;
+    font-size: 1.33rem;
     background-color: rgba(255, 255, 255, 0.616);
     border: .05rem solid rgba(0, 0, 255, 0.63);
     text-align: center;
@@ -61,7 +61,7 @@
 
  .projects-container {
     background-color: rgba(255, 255, 255, 0.616);
-    border: .45rem solid rgba(0, 0, 255, 0.63);
+    border: .40rem solid rgba(0, 0, 255, 0.63);
     padding: .2rem;
  }
 
@@ -94,5 +94,8 @@
     .image-size {
         width: 6.85rem;
         height: 6.5rem;
+    }
+    .projects-container {
+        border: .2rem;
     }
   }
