@@ -8,7 +8,7 @@
     margin: .1rem;
     opacity: 1;
   }
-  
+
   .projects {
     display: flex;
     justify-content: center;
@@ -79,12 +79,12 @@
 
  /* for mobile view */
 @media (max-width: 767px) {
-    .project-text {
-        font-size: 1.45rem;
+    .caption {
+        font-size: .55rem;
     }
     
     .caption h2 {
-        font-size: .5rem;
+        font-size: .55rem;
     }
 
     .project-text {
