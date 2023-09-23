@@ -24,7 +24,7 @@
     width: 65%;
     padding: 3.5rem;
     position: relative; /* Added position relative */
-    border: .2rem solid grey;
+    border: .2rem solid rgba(0, 0, 255, 0.63);
   }
   
   .caption {
@@ -80,15 +80,15 @@
  /* for mobile view */
 @media (max-width: 767px) {
     .caption {
-        font-size: .55rem;
+        font-size: .35rem;
     }
     
     .caption h2 {
-        font-size: .55rem;
+        font-size: .75rem;
     }
 
     .project-text {
-        font-size: .35rem;
+        font-size: .55rem;
     }
 
     .image-size {
