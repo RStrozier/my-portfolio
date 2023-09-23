@@ -70,12 +70,17 @@
   color: rgb(18, 177, 58);
 }
 
+/* for mobile view */
 @media (max-width: 767px) {
   .Text-Full {
     font-size: 1.4rem; /* Decrease the font size for text */
   }
 
   .fa-brands {
-    font-size: 2rem; /* Decrease the font size for icons */
+    font-size: 1.8rem; 
+  }
+
+  .fa-hand {
+    font-size: 5rem;
   }
 }
