@@ -2,7 +2,7 @@
   display: grid;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; /* Use min-height instead of height to allow for content overflow */
+  height: 100vh;
   background: url(./imgs/main-background.png);
   background-position: center;
   background-size: cover; 
@@ -16,22 +16,21 @@
 .Message {
   border: .45rem solid rgba(0, 0, 255, 0.63);
   background-color: rgba(255, 255, 255, 0.541);
-  margin-bottom: .75rem;
+  margin-bottom: .5rem;
 }
 
 .Text-Full {
   font-family: 'Grandstander', cursive;
-  font-size: 1.35rem;
-  margin: .1rem;
+  font-size: 1.15rem;
 }
 
 .Signiture {
   font-family: 'Cedarville Cursive', cursive;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .fa-hand {
-  font-size: 5rem;
+  font-size: 3.9rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,11 +42,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2.5rem;
+  padding: 1.5rem;
 }
 
 .fa-brands {
-  font-size: 3.25rem;
+  font-size: 3rem;
   padding: .15rem;
   justify-content: center;
   align-items: center;
@@ -76,15 +75,15 @@
 /* for mobile view */
 @media (max-width: 767px) {
   .Text-Full {
-    font-size: 1rem;
+    font-size: .75rem;
   }
 
   .fa-brands {
-    font-size: 1.7rem; 
+    font-size: 1.5rem; 
   }
 
   .fa-hand {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 
   .Message {

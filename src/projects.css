@@ -25,6 +25,7 @@
     padding: 2.8rem;
     position: relative; /* Added position relative */
     border: .2rem solid rgba(0, 0, 255, 0.63);
+    margin-bottom: .10rem;
   }
   
   .caption {
@@ -71,7 +72,6 @@
  .projects-container {
     background-color: rgba(255, 255, 255, 0.616);
     border: .40rem solid rgba(0, 0, 255, 0.63);
-    padding: .1rem;
  }
 
  .button {
@@ -89,19 +89,19 @@
  /* for mobile view */
 @media (max-width: 767px) {
     .caption {
-        font-size: .35rem;
+        font-size: .38rem;
     }
     
     .caption h2 {
-        font-size: .75rem;
+        font-size: .65rem;
     }
 
     .project-text {
-        font-size: .55rem;
+        font-size: .75rem;
     }
 
     .image-size {
-        width: 6.85rem;
+        width: 6.5rem;
         height: 6.5rem;
     }
     .projects-container {
