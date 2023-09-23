@@ -15,8 +15,8 @@ const Projects = () => {
   return (
     <div className="projects-container rounded-2">
       <h2 className='project-text rounded-1'>Check out my current projects:</h2>
-      <div className="projects container-fluid rounded-2">
-        <div className='love-project container-fluid images-container rounded-3'>
+      <div className="projects container-md rounded-2">
+        <div className='love-project container-sm images-container rounded-3'>
           <img src={loveImage} alt="img-1" className="image-size" />
           <div className="caption rounded-2">
             <h2>Love Compatibility</h2>
@@ -24,11 +24,11 @@ const Projects = () => {
             <button className='button rounded-2' onClick={handleClickLove}>Try It!</button>
           </div>
         </div>
-        <div className='aframe-project container-fluid images-container rounded-3'>
+        <div className='aframe-project container-sm images-container rounded-3'>
           <img src={aframeImage} alt="img-2" className="image-size" />
           <div className="caption rounded-2">
             <h2>A-Frame Environment</h2>
-            <p>Camera mounted on block with spinning blocks and circle end goal. In VR HTML compatible.</p>
+            <p>Start on a block with a spinning circle end goal. In VR HTML compatible.</p>
             <button className='button rounded-2' onClick={handleClickAframe}>Try It!</button>
           </div>
         </div>
