@@ -1,4 +1,4 @@
-.Entire-Welcome-App {
+body {
   display: grid;
   align-items: center;
   justify-content: center;
@@ -30,7 +30,7 @@
 }
 
 .fa-hand {
-  font-size: 3.9rem;
+  font-size: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
