@@ -22,7 +22,8 @@
 
 .Text-Full {
   font-family: 'Grandstander', cursive;
-  font-size: 1.85rem;
+  font-size: 1.65rem;
+  margin: .1rem;
 }
 
 .Signiture {
@@ -30,22 +31,24 @@
 }
 
 .fa-hand {
-  font-size: 7rem;
+  font-size: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   color: rgba(255, 0, 0, 0.712);
+  margin: .1rem;
 }
 
 .coding-icons {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2.5rem;
 }
 
 .fa-brands {
-  font-size: 2.1rem;
-  padding: .25rem;
+  font-size: 3rem;
+  padding: .15rem;
   justify-content: center;
   align-items: center;
 }

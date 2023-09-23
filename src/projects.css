@@ -96,6 +96,6 @@
         height: 6.5rem;
     }
     .projects-container {
-        border: .2rem;
+        border: .20rem solid rgba(0, 0, 255, 0.63);
     }
   }
