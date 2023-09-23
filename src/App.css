@@ -1,3 +1,36 @@
-body {
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Use min-height instead of height to allow for content overflow */
   background: url(./imgs/main-background.png);
+  background-position: center;
+  background-size: cover; /* Use cover to scale the image and cover the entire container */
+  background-repeat: no-repeat;
+}
+.App p {
+  text-align: center;
+}
+
+.Message {
+  border: .75rem solid rgba(0, 0, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.541);
+  width: 45%;
+}
+
+.Text-Full {
+  font-family: 'Grandstander', cursive;
+  font-size: 3rem;
+}
+
+.Signiture {
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+.fa-hand {
+  font-size: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 0, 0, 0.712);
 }
