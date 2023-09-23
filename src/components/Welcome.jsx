@@ -1,8 +1,11 @@
 import React from 'react';
 import '../App.css';
+import Projects from './Projects';
 
 const Welcome = () => {
     return (
+      <div>
+        <div className='Entire-Welcome-App container-fluid'>
         <div className="App container-fluid-bg">
           <div className="Message container container-md p-2 m-1 rounded-2">
           <i class="fa-regular fa-hand"></i>
@@ -23,6 +26,11 @@ const Welcome = () => {
           <i class="fa-brands fa-node"></i>
           </div>
           </div>
+          <div className="Projects container-fluid-bg">
+           <Projects />
+      </div>
+        </div>
+      </div>
         </div>
       );
   };

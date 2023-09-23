@@ -1,5 +1,5 @@
 .App {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
   min-height: 100vh; /* Use min-height instead of height to allow for content overflow */
@@ -8,15 +8,16 @@
   background-size: cover; /* Use cover to scale the image and cover the entire container */
   background-repeat: no-repeat;
 }
+
 .App p {
   text-align: center;
 }
 
 .Message {
-  border: .75rem solid rgba(0, 0, 255, 0.5);
+  border: .75rem solid rgba(0, 0, 255, 0.63);
   background-color: rgba(255, 255, 255, 0.541);
-  width: 60%;
-  height: 60%;
+  width: 100%;
+  height: 100%;
 }
 
 .Text-Full {
