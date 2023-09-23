@@ -68,19 +68,19 @@
  /* for mobile view */
 @media (max-width: 767px) {
     .project-text {
-        font-size: 1.5rem;
+        font-size: 1.45rem;
     }
     
     .caption h2 {
-        font-size: .75rem;
+        font-size: .5rem;
     }
 
     .project-text {
-        font-size: .55rem;
+        font-size: .35rem;
     }
 
     .image-size {
-        width: 7.5rem;
-        height: 7.5rem;
+        width: 6.85rem;
+        height: 6.85rem;
     }
   }

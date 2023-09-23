@@ -16,7 +16,7 @@ const Projects = () => {
           <div className="caption rounded-2">
             <h2>Love Compatibility</h2>
             <p>Use a custom cursor to type in partner's name and determine love using compatibility API.</p>
-            <button className='button' onClick={handleClick}>Click Here To Try!</button>
+            <button className='button' onClick={handleClick}>Try It!</button>
           </div>
         </div>
       </section>
