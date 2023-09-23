@@ -35,3 +35,37 @@
   justify-content: center;
   color: rgba(255, 0, 0, 0.712);
 }
+
+.coding-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-brands {
+  font-size: 2.5rem;
+  padding: .2rem;
+  margin: .2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-react {
+  color: rgba(23, 23, 206, 0.904);
+}
+
+.fa-css3-alt {
+  color: rgba(255, 238, 0, 0.89);
+}
+
+.fa-html5 {
+  color: red;
+}
+
+.fa-js {
+  color: rgb(23, 49, 197);
+}
+
+.fa-node {
+  color: rgb(18, 177, 58);
+}
