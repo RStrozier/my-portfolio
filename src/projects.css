@@ -5,7 +5,6 @@
     border-radius: 50%;
     background-position: center;
     background-size: contain;
-    margin: .1rem;
     opacity: 1;
   }
 
@@ -23,7 +22,7 @@
     align-items: flex-end; /* Adjust alignment for caption */
     background-color: rgba(255, 255, 255, 0.486);
     width: 65%;
-    padding: 3.5rem;
+    padding: 2.8rem;
     position: relative; /* Added position relative */
     border: .2rem solid rgba(0, 0, 255, 0.63);
   }
@@ -33,9 +32,9 @@
     bottom: 0;
     width: 80%;
     text-align: center;
-    padding: 1rem;
+    padding: .5rem;
     color: white;
-    margin: .15rem;
+    margin: .10rem;
   }
 
   .love-project .caption{
@@ -72,7 +71,7 @@
  .projects-container {
     background-color: rgba(255, 255, 255, 0.616);
     border: .40rem solid rgba(0, 0, 255, 0.63);
-    padding: .2rem;
+    padding: .1rem;
  }
 
  .button {
