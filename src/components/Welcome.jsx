@@ -4,10 +4,10 @@ import Projects from './Projects';
 
 const Welcome = () => {
     return (
-      <div>
+      <div className='container-fluid'>
         <div className='Entire-Welcome-App container-fluid'>
-        <div className="App container-fluid-bg">
-          <div className="Message container container-md p-2 m-1 rounded-2">
+        <div className="App container-lg-bg">
+          <div className="Message container container-lg p-2 m-1 rounded-2">
           <i class="fa-regular fa-hand"></i>
           <p className="Text-Full">
             Just like me, this website is a 
