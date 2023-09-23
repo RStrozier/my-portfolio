@@ -7,7 +7,7 @@ const Welcome = () => {
       <div className=''>
         <div className='Entire-Welcome-App '>
         <div className="App container-fluid">
-          <div className="Message container container-md p-2 m-1 rounded-2">
+          <div className="Message container-md p-2 m-1 rounded-2">
           <i class="fa-regular fa-hand"></i>
           <p className="Text-Full">
             Just like me, this website is a 
@@ -18,7 +18,7 @@ const Welcome = () => {
             -Rashida S.
             </p>
           </p>
-          <div className="coding-icons container-md">
+          <div className="coding-icons">
           <i class="fa-brands fa-react"></i>
           <i class="fa-brands fa-css3-alt"></i>
           <i class="fa-brands fa-html5"></i>
