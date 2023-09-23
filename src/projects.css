@@ -21,7 +21,7 @@
     justify-content: center;
     align-items: flex-end; /* Adjust alignment for caption */
     background-color: rgba(255, 255, 255, 0.486);
-    width: 65%;
+    width: 70%;
     padding: 2.8rem;
     position: relative; /* Added position relative */
     border: .2rem solid rgba(0, 0, 255, 0.63);
@@ -60,10 +60,10 @@
   }
   
  .project-text {
-    padding: .2rem;
+    padding: .25rem;
     font-size: 1.33rem;
     background-color: rgba(255, 255, 255, 0.616);
-    border: .05rem solid rgba(0, 0, 255, 0.63);
+    border: .20rem solid rgba(0, 0, 255, 0.63);
     text-align: center;
     font-family: 'Grandstander', cursive;
  }
