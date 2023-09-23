@@ -13,7 +13,7 @@ const Projects = () => {
       <section className="projects container-fluid rounded-2">
         <div className='container-fluid images-container rounded-3'>
           <img src={loveImage} alt="img-1" className="image-size" />
-          <div className="caption rounded-1">
+          <div className="caption rounded-2">
             <h2>Love Compatibility</h2>
             <p>Use a custom cursor to type in partner's name and determine love using compatibility API.</p>
             <button className='button' onClick={handleClick}>Click Here To Try!</button>

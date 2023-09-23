@@ -22,7 +22,7 @@
     justify-content: center;
     align-items: flex-end; /* Adjust alignment for caption */
     background-color: rgba(255, 255, 255, 0.486);
-    width: 55%;
+    width: 65%;
     padding: 3.5rem;
     position: relative; /* Added position relative */
     border: .2rem solid grey;
@@ -41,18 +41,22 @@
   .caption h2 {
     margin: 0;
     font-size: 1rem;
+    font-family: 'Grandstander', cursive;
   }
   
   .caption p {
     margin: 0;
     font-size: .75rem;
+    font-family: 'Grandstander', cursive;
   }
   
  .project-text {
-    font-size: 2.5rem;
+    padding: .3rem;
+    font-size: 2rem;
     background-color: rgba(255, 255, 255, 0.616);
     border: .05rem solid rgba(0, 0, 255, 0.63);
     text-align: center;
+    font-family: 'Grandstander', cursive;
  }
 
  .projects-container {
@@ -76,7 +80,7 @@
     }
 
     .image-size {
-        width: 11.5rem;
-        height: 11.5rem;
+        width: 7.5rem;
+        height: 7.5rem;
     }
   }
