@@ -16,7 +16,7 @@
 .Message {
   border: .45rem solid rgba(0, 0, 255, 0.63);
   background-color: rgba(255, 255, 255, 0.541);
-  margin-bottom: .5rem;
+  margin-bottom: .3rem;
 }
 
 .Text-Full {
@@ -45,6 +45,13 @@
   padding: 1.5rem;
 }
 
+.selfie-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .fa-brands {
   font-size: 3rem;
   padding: .15rem;
@@ -53,7 +60,7 @@
 }
 
 .fa-react {
-  color: rgba(23, 23, 206, 0.904);
+  color: rgba(62, 32, 230, 0.795);
 }
 
 .fa-css3-alt {

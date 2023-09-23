@@ -39,24 +39,24 @@
   }
 
   .love-project .caption{
-    border: .12rem solid rgba(197, 12, 12, 0.7);
-    background-color: rgba(197, 12, 12, 0.7);
+    border: .12rem solid rgba(175, 11, 11, 0.7);
+    background-color: rgba(165, 10, 10, 0.76);
   }
 
   .aframe-project .caption {
     border: .12rem solid green;
-    background-color: rgba(4, 167, 4, 0.548);
+    background-color: rgba(6, 134, 6, 0.829);
   }
   
   .caption h2 {
     margin: 0;
-    font-size: .9rem;
+    font-size: .8rem;
     font-family: 'Grandstander', cursive;
   }
   
   .caption p {
     margin: 0;
-    font-size: .70rem;
+    font-size: .63rem;
     font-family: 'Grandstander', cursive;
   }
   
@@ -80,8 +80,14 @@
     width: 55%;
  }
 
- .button:hover {
-    background-color: rgba(255, 0, 0, 0.938);
+ .button-1:hover {
+    background-color: rgba(165, 10, 10, 0.76);
+    text-decoration: underline;
+    color: white;
+ }
+
+ .button-2:hover {
+    background-color: rgba(6, 134, 6, 0.829);
     text-decoration: underline;
     color: white;
  }
