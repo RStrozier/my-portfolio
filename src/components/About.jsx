@@ -9,7 +9,7 @@ const About = () => {
     <div className="App">
      <div className="Message container-md p-1 rounded-3">
       <div className="coding-container">
-        <h3 className="tech-stack-text">Rashida Strozier - Web Developer</h3>
+        <h3 className="tech-stack-text">Rashida Strozier - Developer</h3>
         <div className="coding-icons">
           <i className="fa-brands fa-react"></i>
           <i className="fa-brands fa-github"></i>
@@ -24,13 +24,11 @@ const About = () => {
       <Earth />
         <div className='bottom-container-shell'>
           <div className="bottom-container row rounded-3">
-              <div className="row">
                 <div className="sign-container">
                   <div className="message-signiture-container">
                     <p className="Welcome-Text">
-                      Welcome to my world...
+                      Welcome to my world.
                     </p>
-                  </div>
                 </div>
                 <div className="selfie-container">
                   <img src={rashidaImage} alt="self" className="image-size-2 right-image" />
@@ -39,9 +37,7 @@ const About = () => {
                         -Rashida S.
                   </p>
               </div>
-              <div className="row">
                 <Bio />
-              </div>
             </div>
           </div>
       </div>

@@ -20,7 +20,7 @@
   
   .Welcome-Text {
     font-family: 'Grandstander', cursive;
-    font-size: 1.85rem;
+    font-size: 1.75rem;
     padding: .15rem;
   }
   
@@ -63,7 +63,7 @@
   }
 
   h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: center;
   }
   
@@ -74,24 +74,22 @@
   }
 
   .bio-text {
+    text-align: center;
     font-size: .9rem;
-    background-color: rgba(255, 253, 253, 0.507);
-    box-shadow: 0 0 .25rem  rgba(109, 109, 245, 0.63);
-    border: .1rem solid rgba(36, 36, 248, 0.63);
-    padding: .3rem;
-    margin: .2rem;
+    background-color: rgba(255, 253, 253, 0.555);
+    box-shadow: 0 0 .25rem  rgba(215, 215, 255, 0.63);
+    border: .125rem solid rgba(36, 36, 248, 0.63);
   }
 
   .bio-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
   }
 
   .bottom-container {
-    background-color: rgba(79, 171, 233, 0.274);
-    border: .12rem inset rgb(4, 52, 97);
+    background-color: rgba(44, 119, 168, 0.582);
+    border: .15rem solid rgba(11, 67, 119, 0.521);
     width: 70%; }
 
     .bottom-container-shell {
@@ -161,6 +159,7 @@
     }
 
       .bio-text {
+        text-align: center;
         font-size: .45rem;
         margin: 0rem;
       }
@@ -177,7 +176,7 @@
       }      
   
       h3 {
-    font-size: .58rem;
+    font-size: .55rem;
     text-align: center;
   }
 
