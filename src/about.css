@@ -1,12 +1,4 @@
-.Message {
-    margin-top: .1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-  
-  }
-
-  .image-size-2 {
+ .image-size-2 {
     width: 12rem;
     height: 12rem;
     border: .15rem outset rgba(0, 0, 255, 0.63);
@@ -18,20 +10,31 @@
   }
 
   .message-signiture-container {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .App p {
+    text-align: center;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bottom-container {
+    margin-top: .15rem;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   
-  .App p {
-    text-align: center;
-  }
-  
   .Message {
-    border: .30rem outset rgba(0, 0, 255, 0.63);
+    border: .1rem outset rgba(0, 0, 255, 0.63);
     background-color: rgba(255, 255, 255, 0.541);
-    margin-bottom: .2rem;
   }
   
   .Text-Full {
@@ -45,7 +48,7 @@
   }
   
   .fa-hand {
-    font-size: 3.5rem;
+    font-size: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,16 +56,16 @@
   }
   
   .coding-icons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-size: .9rem;
     padding: .15rem;
+    margin-bottom: .25rem;
     box-shadow: 0 0 .75rem  rgba(0, 0, 255, 0.63);
   }
 
-  .coding-container, .sign-container {
+ .sign-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,7 +75,6 @@
   .tech-stack-text {
     text-align: center;
     font-size: 1.1rem;
-    margin-bottom: .25rem;
     padding: .15rem;
   }
   
@@ -80,7 +82,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
+  }
+
+  .bio-text {
+    font-size: .9rem;
+    background-color: rgba(255, 253, 253, 0.507);
+    box-shadow: 0 0 .25rem  rgba(109, 109, 245, 0.63);
+    border: .1rem solid rgba(36, 36, 248, 0.63);
+    padding: .3rem;
+    margin: .2rem;
+  }
+
+  .bio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   
   .fa-brands {
@@ -154,5 +171,10 @@
         text-align: center;
         font-size: .5rem;
         margin: .05rem;
+      }
+
+      .bio-text {
+        font-size: .45rem;
+        margin: 0rem;
       }
   }
