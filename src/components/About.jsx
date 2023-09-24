@@ -7,7 +7,7 @@ import Earth from './Earth';
 const About = () => {
   return (
     <div className="App">
-     <div className="Message container-md p-1 rounded-3">
+     <div className="Message container-lg p-1 rounded-3">
       <div className="coding-container">
         <h3 className="tech-stack-text">Rashida Strozier - Developer</h3>
         <div className="coding-icons">
