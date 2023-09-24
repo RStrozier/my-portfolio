@@ -1,10 +1,21 @@
 .Message {
-    margin-top: .5rem;
+    margin-top: .3rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   
   }
+
+  .image-size-2 {
+    width: 10.5rem;
+    height: 10.5rem;
+    border: .20rem inset rgba(0, 0, 255, 0.63);
+    border-radius: 50%;
+    background-position: center;
+    background-size: contain;
+    opacity: 1;
+  }
+
   
   .message-signiture-container {
     display: grid;
@@ -19,7 +30,7 @@
   .Message {
     border: .30rem outset rgba(0, 0, 255, 0.63);
     background-color: rgba(255, 255, 255, 0.541);
-    margin-bottom: .3rem;
+    margin-bottom: .2rem;
   }
   
   .Text-Full {
@@ -29,16 +40,15 @@
   
   .Signiture {
     font-family: 'Cedarville Cursive', cursive;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   
   .fa-hand {
-    font-size: 3.25rem;
+    font-size: 2.75rem;
     display: flex;
     align-items: center;
     justify-content: center;
     color: rgba(255, 0, 0, 0.712);
-    margin: .1rem;
   }
   
   .coding-icons {
@@ -56,10 +66,10 @@
   }
   
   .fa-brands {
-    font-size: 3rem;
-    padding: .15rem;
+    font-size: 2.5rem;
     justify-content: center;
     align-items: center;
+    margin: .1rem;
   }
   
   .fa-react {
@@ -79,7 +89,7 @@
   }
   
   .fa-node {
-    color: rgb(18, 177, 58);
+    color: rgb(11, 128, 40);
   }
   
   /* for mobile view */
@@ -90,18 +100,23 @@
     }
   
     .Text-Full {
-      font-size: .75rem;
+      font-size: .5rem;
     }
   
     .fa-brands {
-      font-size: 1.5rem; 
+      font-size: .75rem; 
     }
   
     .fa-hand {
-      font-size: 3.5rem;
+      font-size: 1rem;
+      margin: .1rem;
     }
   
     .Message {
-      border: .2rem solid rgba(0, 0, 255, 0.63);
+      border: .1.25rem solid rgba(0, 0, 255, 0.63);
+    }
+
+    .Signiture {
+        font-size: .6rem;
     }
   }
