@@ -9,6 +9,7 @@ const Bio = () => {
                 Hey there! I'm Rashida, a self-taught web developer
                 <br />
                 with a passion for pushing the boundaries of reality. 
+                <br />
                 <br />Currently, my magical powers are channeled into the
                 <br />realms  of virtual reality and augmented reality. 
                 <br />When I'm not conjuring captivating digital experiences, 

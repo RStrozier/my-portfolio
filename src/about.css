@@ -1,6 +1,6 @@
  .image-size-2 {
-    width: 12rem;
-    height: 12rem;
+    width: 13rem;
+    height: 13rem;
     border: .15rem outset rgba(0, 0, 255, 0.63);
     border-radius: 50%;
     background-position: center;
@@ -14,26 +14,19 @@
   }
 
   .Message {
-    border: .1rem outset rgba(0, 0, 255, 0.63);
-    background-color: rgba(255, 255, 255, 0.541);
+    border: .1rem outset rgba(160, 160, 206, 0.63);
+    background-color: rgba(130, 183, 226, 0.192);
   }
   
-  .Text-Full {
+  .Welcome-Text {
     font-family: 'Grandstander', cursive;
-    font-size: .85rem;
+    font-size: 1.85rem;
+    padding: .15rem;
   }
   
   .Signiture {
     font-family: 'Cedarville Cursive', cursive;
-    font-size: 1rem;
-  }
-  
-  .fa-hand {
-    font-size: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgba(255, 0, 0, 0.712);
+    font-size: 1.75rem;
   }
 
   .coding-icons {
@@ -44,6 +37,7 @@
     padding: .1rem;
     width: 20rem;
     margin-bottom: .25rem;
+    background-color: rgba(255, 255, 255, 0.295);
     box-shadow: 0 0 .75rem  rgba(0, 0, 255, 0.63);
   }
 
@@ -57,6 +51,8 @@
   .coding-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    border: 1px outset rgba(32, 32, 240, 0.384);
+    background-color: rgba(156, 154, 154, 0.678);
 
   }
 
@@ -92,6 +88,18 @@
     align-items: center;
     text-align: center;
   }
+
+  .bottom-container {
+    background-color: rgba(79, 171, 233, 0.274);
+    border: .12rem inset rgb(4, 52, 97);
+    width: 70%; }
+
+    .bottom-container-shell {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: .3rem;
+    }
   
   .fa-brands {
     font-size: 2.2rem;
@@ -135,16 +143,12 @@
       font-size: .75rem; 
     }
   
-    .fa-hand {
-      font-size: 1.5rem;
-    }
-  
     .Message {
       border: .1rem solid rgba(0, 0, 255, 0.63);
     }
 
     .Signiture {
-        font-size: .45rem;
+        font-size: .65rem;
     }
 
     .image-size-2 {
@@ -173,8 +177,12 @@
       }      
   
       h3 {
-    font-size: .75rem;
+    font-size: .58rem;
     text-align: center;
+  }
+
+  .Welcome-Text {
+    font-size: .9rem;
   }
     
   }

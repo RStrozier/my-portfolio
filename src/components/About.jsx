@@ -2,6 +2,7 @@ import React from 'react';
 import rashidaImage from '../imgs/rashida.jpg';
 import '../about.css';
 import Bio from './Bio';
+import Earth from './Earth';
 
 const About = () => {
   return (
@@ -20,26 +21,23 @@ const About = () => {
           <i className="fa-brands fa-node"></i>
         </div>
       </div>
-        <div className='bottom-container'>
-          <div className="row">
+      <Earth />
+        <div className='bottom-container-shell'>
+          <div className="bottom-container row rounded-3">
               <div className="row">
-                <div className="col-md-6 sign-container">
+                <div className="sign-container">
                   <div className="message-signiture-container">
-                    <i className="fa-regular fa-hand"></i>
-                    <p className="Text-Full">
-                      Just like me, this website is a
-                      <p className="Work-Text">
-                        Work In Progress..
-                      </p>
-                      <p className="Signiture">
-                        -Rashida S.
-                      </p>
+                    <p className="Welcome-Text">
+                      Welcome to my world...
                     </p>
                   </div>
                 </div>
-                <div className="col-md-6 selfie-container">
+                <div className="selfie-container">
                   <img src={rashidaImage} alt="self" className="image-size-2 right-image" />
                 </div>
+                  <p className="Signiture">
+                        -Rashida S.
+                  </p>
               </div>
               <div className="row">
                 <Bio />

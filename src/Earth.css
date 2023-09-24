@@ -2,18 +2,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 17rem;
-  width: 38rem;
+  height: 16rem;
+  width: 40rem;
   background-image: url(./imgs/stars.jpg);
   border: .20rem inset rgba(16, 16, 250, 0.527);
   opacity: .97;
   box-shadow: 0 0 1rem rgba(224, 222, 222, 0.2);
 }
 
+.earth-shell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
   .black-earth-container {
     margin-top: .2rem;
-    height: 20rem;
-    width: 100%;
+    width: 90%;
+    height: 18rem;
     display: flex;
     justify-content: center;
     align-items: center;
