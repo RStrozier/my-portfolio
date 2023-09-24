@@ -4,8 +4,8 @@
     align-items: center;
     height: 300px;
     background-image: url(./imgs/stars.jpg);
-    opacity: .94;
     border: .5rem inset rgba(27, 27, 211, 0.164);
+    opacity: .97;
   }
   
   .earth {
@@ -18,10 +18,29 @@
     animation: rotateAnimation 90s linear infinite;
   }
 
+  .create-container {
+    background-color: rgba(104, 103, 103, 0.438);
+    opacity: .6;
+    margin: .25rem;
+  }
+
+  .create-text {
+    margin: .25rem;
+    color: white;
+    text-align: center;
+    font-size: .75rem;
+  }
+
    /* for mobile view */
 @media (max-width: 767px) {
     .earth {
         width: 10rem;
         height: 10rem;
     }
+    .create-text {
+    margin: .1rem;
+    color: white;
+    text-align: center;
+    font-size: .4rem;
+  }
   }
