@@ -21,3 +21,9 @@
     }
   }
   
+  @keyframes neon-glow {
+    0% { text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00eaff, 0 0 40px #00eaff, 0 0 55px #00eaff, 0 0 75px #00eaff; }
+    100% { text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #00eaff, 0 0 20px #000, 0 0 35px #000, 0 0 50px #000; }
+  }
+
+  

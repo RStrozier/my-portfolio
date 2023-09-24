@@ -4,6 +4,7 @@ import '../about.css';
 import Bio from './Bio';
 import Earth from './Earth';
 
+
 const About = () => {
   return (
     <div className="App">
