@@ -1,13 +1,4 @@
-@keyframes rotateAnimation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
-  .earth-container {
+.earth-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,4 +16,12 @@
     background-size: cover;
     border-radius: 50%;
     animation: rotateAnimation 90s linear infinite;
+  }
+
+   /* for mobile view */
+@media (max-width: 767px) {
+    .earth {
+        width: 10rem;
+        height: 10rem;
+    }
   }
