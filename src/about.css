@@ -145,4 +145,10 @@
     p .project-description {
         font-size: .35rem;
     }
+
+    .tech-stack-text {
+        text-align: center;
+        font-size: .5rem;
+        margin: .05rem;
+      }
   }
