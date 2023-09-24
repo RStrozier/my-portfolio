@@ -1,6 +1,6 @@
  .image-size-2 {
-    width: 13rem;
-    height: 13rem;
+    width: 13.5rem;
+    height: 13.5rem;
     border: .2rem outset rgba(0, 0, 255, 0.63);
     border-radius: 50%;
     background-position: center;
@@ -82,8 +82,8 @@
 
   .bio-text {
     text-align: center;
-    font-size: .92rem;
-    background-color: rgba(245, 244, 244, 0.856);
+    font-size: .9rem;
+    background-color: rgba(236, 234, 234, 0.877);
     box-shadow: 0 0 .25rem  rgba(215, 215, 255, 0.63);
     border: .125rem solid rgba(0, 0, 255, 0.63);
   }
@@ -173,7 +173,7 @@
 
       .bio-text {
         text-align: center;
-        font-size: .45rem;
+        font-size: .4rem;
         margin: 0rem;
       }
 
@@ -194,7 +194,7 @@
   }
 
   .Welcome-Text {
-    font-size: .9rem;
+    font-size: .7rem;
   }
     
   }
