@@ -22,10 +22,10 @@
     align-items: flex-end; /* Adjust alignment for caption */
     background-color: rgba(255, 255, 255, 0.486);
     width: 70%;
-    padding: 2.8rem;
+    padding: 1.5rem;
     position: relative; /* Added position relative */
     border: .2rem solid rgba(0, 0, 255, 0.63);
-    margin-bottom: .10rem;
+    margin-bottom: .15rem;
   }
   
   .caption {
@@ -50,28 +50,28 @@
   
   .caption h2 {
     margin: 0;
-    font-size: .8rem;
+    font-size: .78rem;
     font-family: 'Grandstander', cursive;
   }
   
   .caption p {
     margin: 0;
-    font-size: .63rem;
+    font-size: .58rem;
     font-family: 'Grandstander', cursive;
   }
   
  .project-text {
-    padding: .35rem;
-    font-size: 1.33rem;
+    padding: .2rem;
+    font-size: 1.35rem;
     background-color: rgba(255, 255, 255, 0.616);
-    border: .25rem solid rgba(0, 0, 255, 0.644);
+    border: .13rem solid rgba(4, 4, 245, 0.644);
     text-align: center;
     font-family: 'Grandstander', cursive;
  }
 
  .projects-container {
-    background-color: rgba(69, 87, 247, 0.548);
-    border: .20rem solid rgba(14, 14, 224, 0.555);
+    background-color: rgba(86, 102, 238, 0.548);
+    border: .20rem solid rgba(36, 36, 226, 0.555);
  }
 
  .button {
@@ -102,12 +102,16 @@
         font-size: .38rem;
     }
     
+    .caption p {
+        font-size: .3rem;
+    }
+
     .caption h2 {
-        font-size: .65rem;
+        font-size: .5rem;
     }
 
     .project-text {
-        font-size: .75rem;
+        font-size: .65rem;
     }
 
     .image-size {

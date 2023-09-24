@@ -20,7 +20,7 @@ const Projects = () => {
           <img src={loveImage} alt="img-1" className="image-size" />
           <div className="caption rounded-2">
             <h2>Love Compatibility</h2>
-            <p className='project-description'>Use a custom cursor to type in a partner's name and determine love using the compatibility API.</p>
+            <p>Use a custom cursor to type in a partner's name and determine love using the compatibility API.</p>
             <button className='button button-1 rounded-2' onClick={handleClickLove}>Try It!</button>
           </div>
         </div>
@@ -28,7 +28,7 @@ const Projects = () => {
           <img src={aframeImage} alt="img-2" className="image-size" />
           <div className="caption rounded-2">
             <h2>A-Frame Environment</h2>
-            <p className='project-description'>Start on a block with a spinning circle end goal. In VR HTML compatible.</p>
+            <p>Start on a block with a spinning circle end goal. In VR HTML compatible.</p>
             <button className='button button-2 rounded-2' onClick={handleClickAframe}>Try It!</button>
           </div>
         </div>

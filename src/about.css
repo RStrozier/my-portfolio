@@ -35,7 +35,7 @@
   
   .Text-Full {
     font-family: 'Grandstander', cursive;
-    font-size: 1.15rem;
+    font-size: 1.10rem;
   }
   
   .Signiture {
@@ -108,7 +108,7 @@
     }
   
     .fa-hand {
-      font-size: 1rem;
+      font-size: 1.2rem;
       margin: .1rem;
     }
   
@@ -118,5 +118,14 @@
 
     .Signiture {
         font-size: .6rem;
+    }
+
+    .image-size-2 {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    p .project-description {
+        font-size: .35rem;
     }
   }
