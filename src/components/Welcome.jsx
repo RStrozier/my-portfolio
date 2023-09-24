@@ -11,7 +11,7 @@ const Welcome = () => {
           <div className="Projects container-md">
            <Projects />
           </div>
-        </div>  
+        </div> 
       );
   };
   export default Welcome;

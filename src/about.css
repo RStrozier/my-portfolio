@@ -40,7 +40,7 @@
   
   .Signiture {
     font-family: 'Cedarville Cursive', cursive;
-    font-size: 1.25rem;
+    font-size: 1.10rem;
   }
   
   .fa-hand {
@@ -66,7 +66,7 @@
   }
   
   .fa-brands {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     justify-content: center;
     align-items: center;
     margin: .1rem;
@@ -109,15 +109,15 @@
   
     .fa-hand {
       font-size: 1.2rem;
-      margin: .1rem;
+      margin-top: .1rem;
     }
   
     .Message {
-      border: .1.25rem solid rgba(0, 0, 255, 0.63);
+      border: .1rem solid rgba(0, 0, 255, 0.63);
     }
 
     .Signiture {
-        font-size: .6rem;
+        font-size: .5rem;
     }
 
     .image-size-2 {

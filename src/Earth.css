@@ -1,0 +1,28 @@
+@keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .earth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-image: url(./imgs/stars.jpg);
+    opacity: .94;
+    border: .5rem inset rgba(27, 27, 211, 0.164);
+  }
+  
+  .earth {
+    width: 17rem;
+    height: 17rem;
+    background-image: url('./imgs/earth.jpg');
+    background-position: -20%;
+    background-size: cover;
+    border-radius: 50%;
+    animation: rotateAnimation 90s linear infinite;
+  }

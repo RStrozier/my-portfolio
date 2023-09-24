@@ -5,7 +5,7 @@ import '../about.css';
 const About = () => {
   return (
       <div className="App">
-          <div className="Message container-lg p-1 rounded-2">
+          <div className="Message container-lg p-1 rounded-3">
             <div className="coding-icons">
               <i class="fa-brands fa-react"></i>
               <i class="fa-brands fa-css3-alt"></i>
