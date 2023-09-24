@@ -133,4 +133,9 @@
     .projects-container {
         border: .15rem solid rgba(0, 0, 255, 0.63);
     }
+
+    .fa-solid {
+      font-size: 2rem;
+      color: rgba(20, 20, 255, 0.726);
+    }
   }
