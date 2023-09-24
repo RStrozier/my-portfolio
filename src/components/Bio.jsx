@@ -17,12 +17,11 @@ const Bio = () => {
                 <br />
             </div>
             <div className='bio-text-p-2'>
-                <br /><b>Welcome to my captivating portfolio </b>
-                <br />showcasing the mind-bending creations of my imaginative
-                journey into virtual and augmented realities.
-                Let's embark to discover where the lines
+                <br /><b>Welcome to my captivating portfolio. </b>
+                 Let's embark to discover where the lines
                are between what's real and what's possible.
-                <br /><u>Than let's blur those lines in the most wondrous ways.</u>
+               <br />
+            <u>Than let's blur those lines in the most wondrous ways.</u>
             </div>
         </div>
     </div>
