@@ -10,12 +10,26 @@ body {
   overflow-x: hidden;
 }
 
+.Message {
+  margin-top: .5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+
+}
+
+.message-signiture-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
 .App p {
   text-align: center;
 }
 
 .Message {
-  border: .45rem solid rgba(0, 0, 255, 0.63);
+  border: .30rem outset rgba(0, 0, 255, 0.63);
   background-color: rgba(255, 255, 255, 0.541);
   margin-bottom: .3rem;
 }
@@ -31,7 +45,7 @@ body {
 }
 
 .fa-hand {
-  font-size: 4rem;
+  font-size: 3.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +57,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem;
+  font-size: .9rem;
 }
 
 .selfie-container {

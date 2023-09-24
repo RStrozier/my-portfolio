@@ -5,7 +5,7 @@ import About from './About';
 
 const Welcome = () => {
     return (
-      <div className=''>
+      <div className='Entire-Welcome-App'>
           <About />
           <div className="Projects container-md">
            <Projects />
