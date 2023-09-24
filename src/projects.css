@@ -1,6 +1,6 @@
 .image-size {
-    width: 13.5rem;
-    height: 13.5rem;
+    width: 14rem;
+    height: 14rem;
     border: .25rem inset rgba(0, 0, 255, 0.63);
     border-radius: 50%;
     background-position: center;
@@ -10,16 +10,34 @@
 
   .projects {
     display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: .2rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: rgba(207, 204, 204, 0.473);
   } 
 
+  .aframe-project, .love-project {
+    box-shadow: 0 0 .75rem rgba(206, 219, 243, 0.829);
+  }
+
+  .change-p-text {
+    font-family: 'Grandstander', cursive;
+    font-weight: bold;
+    padding: .2rem;
+  }
+
+  .arrows-container {
+    display: flex;
+    padding: .1rem;
+  }
+
   .fa-solid {
-    font-size: 3rem;
+    font-size: 2rem;
     color: rgba(20, 20, 255, 0.726);
+    margin: .05rem;
   }
 
   .fa-solid:hover {
@@ -135,7 +153,7 @@
     }
 
     .fa-solid {
-      font-size: 2rem;
+      font-size: 1.2rem;
       color: rgba(20, 20, 255, 0.726);
     }
   }
