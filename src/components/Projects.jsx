@@ -16,6 +16,7 @@ const Projects = () => {
     <div className="projects-container container-md rounded-2">
       <h2 className='project-text rounded-1'>Check out my current projects:</h2>
       <div className="projects container-md rounded-2">
+      <i class="fa-solid fa-circle-left"></i>
         <div className='love-project container-sm images-container rounded-3'>
           <img src={loveImage} alt="img-1" className="image-size" />
           <div className="caption rounded-2">
@@ -32,6 +33,7 @@ const Projects = () => {
             <button className='button button-2 rounded-2' onClick={handleClickAframe}>Try It!</button>
           </div>
         </div>
+        <i class="fa-solid fa-circle-right"></i>
       </div>
     </div>
   );
