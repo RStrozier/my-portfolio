@@ -7,7 +7,7 @@ const About = () => {
       <div className="App">
           <div className="Message container-lg p-1 rounded-3">
              <div className='coding-container'>
-             <h3 className='tech-stack-text'>Current Technology Stack:</h3>
+             <h3 className='tech-stack-text'>Current technology stack:</h3>
                 <div className="coding-icons">
                  <i class="fa-brands fa-react"></i>
                 <i class="fa-brands fa-github"></i>

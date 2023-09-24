@@ -17,6 +17,7 @@
     align-items: center;
     flex-direction: column;
     background-color: rgba(207, 204, 204, 0.473);
+    border: .125rem inset rgba(0, 0, 255, 0.63);
   } 
 
   .aframe-project, .love-project {
@@ -27,6 +28,7 @@
     font-family: 'Grandstander', cursive;
     font-weight: bold;
     padding: .2rem;
+    text-decoration: underline;
   }
 
   .arrows-container {
@@ -55,6 +57,7 @@
     position: relative; /* Added position relative */
     border: .2rem solid rgba(0, 0, 255, 0.63);
     margin-bottom: .15rem;
+    margin-top: .25rem;
   }
   
   .caption {
@@ -91,7 +94,7 @@
   
  .project-text {
     padding: .2rem;
-    font-size: 1.35rem;
+    font-size: 1.4rem;
     background-color: rgba(255, 255, 255, 0.616);
     border: .13rem solid rgba(4, 4, 245, 0.644);
     text-align: center;
@@ -107,7 +110,7 @@
  .button {
     border: .1rem solid rgba(253, 252, 252, 0.87);
     background-color: rgba(255, 255, 255, 0.925);
-    width: 55%;
+    width: 50%;
  }
 
  .button-1:hover {
@@ -141,7 +144,7 @@
     }
 
     .project-text {
-        font-size: .65rem;
+        font-size: .8rem;
     }
 
     .image-size {
@@ -155,5 +158,9 @@
     .fa-solid {
       font-size: 1.2rem;
       color: rgba(20, 20, 255, 0.726);
+    }
+
+    .change-p-text  {
+      font-size: .65rem;
     }
   }
