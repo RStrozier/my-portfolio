@@ -9,29 +9,10 @@
     box-shadow: 0 0 1rem rgba(222, 230, 245, 0.911);
   }
 
-  .message-signiture-container {
-    justify-content: center;
-    align-items: center;
-  }
-
   .App p {
     text-align: center;
   }
 
-  .App {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .bottom-container {
-    margin-top: .15rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
   .Message {
     border: .1rem outset rgba(0, 0, 255, 0.63);
     background-color: rgba(255, 255, 255, 0.541);
@@ -39,7 +20,7 @@
   
   .Text-Full {
     font-family: 'Grandstander', cursive;
-    font-size: 1rem;
+    font-size: .85rem;
   }
   
   .Signiture {
@@ -54,13 +35,14 @@
     justify-content: center;
     color: rgba(255, 0, 0, 0.712);
   }
-  
+
   .coding-icons {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: .9rem;
-    padding: .15rem;
+    padding: .1rem;
+    width: 20rem;
     margin-bottom: .25rem;
     box-shadow: 0 0 .75rem  rgba(0, 0, 255, 0.63);
   }
@@ -72,10 +54,21 @@
     align-items: center;
   }
 
+  .coding-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
   .tech-stack-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    font-size: 1.2rem;
     text-align: center;
-    font-size: 1.1rem;
-    padding: .15rem;
   }
   
   .selfie-container {
@@ -105,6 +98,7 @@
     justify-content: center;
     align-items: center;
     margin: .1rem;
+    padding: .05rem;
   }
   
   .fa-react {
@@ -133,13 +127,8 @@
   
   /* for mobile view */
   @media (max-width: 767px) {
-    * {
-      padding: 0;
-      margin: 0;
-    }
-  
     .Text-Full {
-      font-size: .5rem;
+      font-size: .4rem;
     }
   
     .fa-brands {
@@ -147,7 +136,7 @@
     }
   
     .fa-hand {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
   
     .Message {
@@ -155,26 +144,37 @@
     }
 
     .Signiture {
-        font-size: .5rem;
+        font-size: .45rem;
     }
 
     .image-size-2 {
-        width: 6.75rem;
-        height: 6.75rem;
+        width: 6.5rem;
+        height: 6.5rem;
     }
 
     p .project-description {
         font-size: .35rem;
     }
 
-    .tech-stack-text {
-        text-align: center;
-        font-size: .5rem;
-        margin: .05rem;
-      }
-
       .bio-text {
         font-size: .45rem;
         margin: 0rem;
       }
+
+      .coding-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: .7rem;
+        padding: .1rem;
+        width: 12.5rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0 .75rem  rgba(0, 0, 255, 0.63);
+      }      
+  
+      h3 {
+    font-size: .75rem;
+    text-align: center;
+  }
+    
   }
