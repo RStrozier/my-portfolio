@@ -1,27 +1,42 @@
 .earth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 17rem;
+  width: 38rem;
+  background-image: url(./imgs/stars.jpg);
+  border: .20rem inset rgba(16, 16, 250, 0.527);
+  opacity: .97;
+  box-shadow: 0 0 1rem rgba(224, 222, 222, 0.2);
+}
+
+  .black-earth-container {
+    margin-top: .2rem;
+    height: 20rem;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    background-image: url(./imgs/stars.jpg);
-    border: .5rem inset rgba(27, 27, 211, 0.164);
-    opacity: .97;
+    background-color: rgba(0, 0, 0, 0.726);
+    border: .15rem outset rgba(16, 16, 250, 0.527);
   }
   
   .earth {
-    width: 17rem;
-    height: 17rem;
+    width: 15rem;
+    height: 15rem;
     background-image: url('./imgs/earth.jpg');
     background-position: -20%;
     background-size: cover;
     border-radius: 50%;
     animation: rotateAnimation 90s linear infinite;
+    box-shadow: 0 0 .75rem rgba(201, 221, 250, 0.418);
   }
 
   .create-container {
-    background-color: rgba(104, 103, 103, 0.438);
+    background-color: rgba(104, 103, 103, 0.192);
     opacity: .6;
     margin: .25rem;
+    padding: .15rem;
   }
 
   .create-text {
@@ -29,13 +44,14 @@
     color: white;
     text-align: center;
     font-size: .85rem;
+    font-size: .75rem;
   }
 
    /* for mobile view */
 @media (max-width: 767px) {
     .earth {
-        width: 10rem;
-        height: 10rem;
+        width: 7rem;
+        height: 7rem;
     }
     .create-text {
     margin: .1rem;
@@ -43,4 +59,22 @@
     text-align: center;
     font-size: .4rem;
   }
+
+  .earth-container {
+      width: 19rem;
+      height: 8.5rem;
+      border: .1rem solid rgba(16, 16, 250, 0.527);
+    }
+
+    .create-text {
+      margin: .1rem;
+      font-size: .4rem;
+    }
+
+    .black-earth-container {
+      height: 10.75rem;
+      width: 100%;
+      margin-top: 0;
+    }
+    
   }
