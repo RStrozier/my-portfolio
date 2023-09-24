@@ -16,7 +16,6 @@
     opacity: 1;
   }
 
-  
   .message-signiture-container {
     display: grid;
     justify-content: center;
@@ -52,10 +51,24 @@
   }
   
   .coding-icons {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     font-size: .9rem;
+  }
+
+  .coding-container, .sign-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tech-stack-text {
+    text-align: center;
+    font-size: 1.15rem;
+    margin: .1rem;
   }
   
   .selfie-container {
@@ -66,7 +79,7 @@
   }
   
   .fa-brands {
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     justify-content: center;
     align-items: center;
     margin: .1rem;
@@ -82,6 +95,10 @@
   
   .fa-html5 {
     color: red;
+  }
+
+  .fa-gitlab {
+    color: orange;
   }
   
   .fa-js {
